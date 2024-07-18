@@ -1,0 +1,82 @@
+{
+    "intents": [
+      {
+        "tag": "greetings",
+        "patterns": ["hello", "hi", "hey", "good", "greetings", "whats up"],
+        "responses": ["hello!", "hi", "hey", "good day"]
+      },
+      {
+        "tag": "good bye",
+        "patterns": [
+          "good bye",
+          "see you later",
+          "bye bye",
+          "bye",
+          "talk to you later"
+        ],
+        "responses": [
+          "good bye",
+          "see you later",
+          "bye bye",
+          "bye",
+          "talk to you later"
+        ]
+      },
+      {
+        "tag": "name",
+        "patterns": ["your name", "what's your name", "who are you", "about you"],
+        "responses": [
+          "Nancy",
+          "My name is nancy",
+          "call me nancy",
+          "I am nancy",
+          "myself nancy"
+        ]
+      },
+      {
+        "tag": " company",
+        "patterns": [
+          "your company name",
+          "what's your company name",
+          "where do you work",
+          "about your company"
+        ],
+        "responses": [
+          "google",
+          "My company name is google",
+          "Its google",
+          "I work at google",
+          "my company is google"
+        ]
+      },
+      {
+        "tag": "help",
+        "patterns": ["help", "what can you do", "how do you work"],
+        "response": "I can assist you with a variety of tasks, including answering questions and providing information."
+      },
+      {
+        "tag": "product_info",
+        "patterns": [
+          "what products do you offer",
+          "tell me about your products",
+          "product information"
+        ],
+        "response": "We offer a wide range of products, including widgets, gadgets, and gizmos. Would you like more information about a specific product?"
+      },
+      {
+        "tag": "order_status",
+        "patterns": ["where is my order", "order status", "has my order shipped"],
+        "response": "I'd be happy to help you with your order status. Can you please provide your order number?"
+      },
+      {
+        "tag": "return_policy",
+        "patterns": [
+          "can I return a product",
+          "return policy",
+          "how do I return a product"
+        ],
+        "response": "We have a 30-day return policy. You can return a product by contacting our customer service team and providing your order number."
+      }
+    ]
+  }
+  
